@@ -369,3 +369,36 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+footer p {
+    display: inline;
+    margin-left: 10px;
+}
+footer a {
+    color: rgba(white, .7);;
+}
+
+footer span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  background-color: $theme-primary;
+}
